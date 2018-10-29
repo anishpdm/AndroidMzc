@@ -1,0 +1,40 @@
+<LinearLayout android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:background="#e7cd08"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:hint="Enter Your Name"
+        />
+
+
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pass"
+        android:hint="Enter your password"
+        android:inputType="textPassword"
+        />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:id="@+id/button"
+        />
+
+    <!--<Button-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Go To Next"-->
+        <!--android:id="@+id/next"-->
+        <!--/>-->
+
+</LinearLayout>
